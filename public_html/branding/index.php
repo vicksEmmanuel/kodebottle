@@ -16,89 +16,90 @@
   <link rel="stylesheet" href="../css/contact.css">
   <link rel="stylesheet" href="../css/jquery-ui.css">
   <style>
-	.thankyou{
-		position:fixed;
-		top:0px;
-		display:none;
-		width:100%;
-		height:100%;
-		background-color: rgba(0,0,0,.8);
-		z-index: 1000;
-	}
-	.thankyou-content{
-		position:relative;
-		padding:10px;
-		width:100%;
-		height:100%;
-	}
-	.cancel-float{
-		position:relative;
-		font-size:100px;
-		text-align:right;
-		color:dodgerblue;
-		font-weight:lighter;
-		cursor:pointer;
-	}
-	.thankyou-header{
-		position: relative;
-		width:100%;
-		font-size:30px;
-		text-align:center;
-		color:white;
-	}
-	.thankyou-body{
-		position: relative;
-		width:100%;
-		font-size:14px;
-		text-align:center;
-		color:white;
-	}
-	.thankyou-image{
-		position: relative;
-		width:200px;
-		height:100px;
-		left:25%;
-	}
-	#loader{
-		position:fixed;
-		width:0%;
-		display:none;
-		height:5px;
-		top:0px;
-		margin:0px;
-		border:0px;
-		z-index:300;
-		background-image: linear-gradient(to bottom left,#f08,#00004d);
-	}
-  	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
-		border: 1px solid #c5c5c5;
-		background: #eef442;
-		font-weight: normal;
-		color: #ffffff;
-	}
-	.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
-		color: #ffffff;
-		text-decoration: none;
-	}
-	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-			border: 1px solid #003eff;
-			background: #ffffff;
-			font-weight: normal;
-			color: #eef442;
-		}
-	.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
-		color: #eef442;
-		text-decoration: none;
-	}
-	#tabs{
-		border-bottom:0px;
-	}
-	.ui-tabs .ui-tabs-panel{
-		padding:0px;
-	}
+    .thankyou{
+      position:fixed;
+      top:0px;
+      display:none;
+      width:100%;
+      height:100%;
+      background-color: rgba(0,0,0,.8);
+      z-index: 1000;
+    }
+    .thankyou-content{
+      position:relative;
+      padding:10px;
+      width:100%;
+      height:100%;
+    }
+    .cancel-float{
+      position:relative;
+      font-size:100px;
+      text-align:right;
+      color:dodgerblue;
+      font-weight:lighter;
+      cursor:pointer;
+    }
+    .thankyou-header{
+      position: relative;
+      width:100%;
+      font-size:30px;
+      text-align:center;
+      color:white;
+    }
+    .thankyou-body{
+      position: relative;
+      width:100%;
+      font-size:14px;
+      text-align:center;
+      color:white;
+    }
+    .thankyou-image{
+      position: relative;
+      width:200px;
+      height:100px;
+      left:25%;
+    }
+    #loader{
+      position:fixed;
+      width:0%;
+      display:none;
+      height:5px;
+      top:0px;
+      margin:0px;
+      border:0px;
+      z-index:300;
+      background-image: linear-gradient(to bottom left,#f08,#00004d);
+    }
+      .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+      border: 1px solid #c5c5c5;
+      background: #eef442;
+      font-weight: normal;
+      color: #ffffff;
+    }
+    .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+        border: 1px solid #003eff;
+        background: #ffffff;
+        font-weight: normal;
+        color: #eef442;
+      }
+    .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+      color: #eef442;
+      text-decoration: none;
+    }
+    #tabs{
+      border-bottom:0px;
+    }
+    .ui-tabs .ui-tabs-panel{
+      padding:0px;
+    }
   </style>
   <link rel="stylesheet" href="../css/branding.css">
-  <script src="../js/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/flickity@2.2.1/dist/flickity.pkgd.min.js"></script>
   <script src="../js/jquery-ui.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
   <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"/>

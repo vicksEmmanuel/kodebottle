@@ -9,8 +9,10 @@ echo '
     databaseURL: "https://kodebottle.firebaseio.com",
     projectId: "kodebottle",
     storageBucket: "kodebottle.appspot.com",
-    messagingSenderId: "795096539921"
+    messagingSenderId: "795096539921",
+    appId: "1:795096539921:web:5c7436efd85668dc6fe2b0"
   };
+  
   firebase.initializeApp(config);
   
 	var fileList=[];

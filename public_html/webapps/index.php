@@ -98,7 +98,8 @@
     }
   </style>
   <link rel="stylesheet" href="../css/webapps.css">
-  <script src="../js/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/flickity@2.2.1/dist/flickity.pkgd.min.js"></script>
   <script src="../js/jquery-ui.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
   <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"/>
