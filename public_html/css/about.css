@@ -1,0 +1,537 @@
+#about_container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  margin: 0px;
+}
+#about_content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+#about_footer{
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+#jayz{
+  position: relative;
+  width: 95%;
+  height: 100%;
+  overflow-y: scroll;
+  float: left;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+#beyonce{
+  position: relative;
+  width: 5%;
+  height: 100%;
+  float: left;
+}
+.ad{
+  position: relative;
+  width: 20%;
+  margin-top: 5px;
+  padding: 5px;
+  padding-top: 20px;
+  display: inline;
+  float: left;
+  text-align: justify;
+  margin-left: 50px;
+}
+h2{
+  font-family: Lato, Selawik, sans-serif;
+  color: slategray;
+  display: inline;
+}
+.mix{
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: 30%;
+}
+.on{
+  position: relative;
+  width: 100%;
+  top: -20px;
+  letter-spacing: normal;
+  line-height: 20px;
+}
+.mix-icon{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(17,15,38);
+  left: 25%;
+}
+#settings{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  fill:orange;
+  left: 35%;
+  top:35%;
+}
+#next{
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  color: orange;
+  width: 50px;
+  right: 5px;
+  height: 10%;
+  top: 35%;
+}
+#next-icon, #next-turn{
+  position: relative;
+  fill: rgb(17,15,38);
+  width: 30px;
+  height: 30px;
+  float: right;
+  top: 25%;
+  right: 10px;
+  cursor: pointer;
+}
+#about_2_container{
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+  overflow-y:scroll;
+  float: left;
+}
+#about2_about{
+  position: relative;
+  width: 30%;
+  height: 100%;
+  margin: 0px;
+  padding: 5px;
+  top: 20px;
+  padding-left: 30px;
+  float: left;
+}
+#about2_value{
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: 0px;
+  float: left;
+}
+.about_us{
+  position: relative;
+  font-family: 'Poppins', Lato, Selawik, sans-serif;
+  font-size: 100px;
+  color: rgb(17,15,38);
+  text-shadow: 5px 9px 0 rgba(0,0,0,.15);
+  line-height: 70px;
+  padding-bottom: 15px;
+  font-stretch: ultra-condensed;
+  font-weight: lighter;
+  width: 100%;
+  height: 30%;
+  margin: 0px;
+  float: left;
+}
+.about_us:after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 8px;
+    bottom: 0;
+    background-image: url("/image/wave-charcoal.png");
+    background-size: 100% 100%;
+}
+.about_us:after {
+    left: 50%;
+    margin-left: -35px;
+}
+.about_us span{
+  text-align: center;
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+  display: block;
+  font-weight: lighter;
+}
+.cont{
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  float: left;
+  padding-top: 30px;
+  font-size: 20px;
+  font-stretch: extra-expanded;
+  font-family:  'Poppins', Lato, Selawik, sans-serif;
+  text-align: justify;
+  height: 70%;
+}
+.theheader{
+  position: relative;
+  width: 100%;
+  height: 90%;
+  float: left;
+  margin: 0px;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+#tie{
+  position: relative;
+  width: 100%;
+  float: left;
+  padding-top: 200px;
+  text-align: justify;
+  font-family: 'Poppins', Lato, Selawik, sans-serif;
+  font-size: 30px;
+  color: slategray;
+  line-height: 30px;
+  spacing: 20px;
+  font-stretch: ultra-condensed;
+  font-weight: lighter;
+  overflow: auto;
+}
+#tie::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    background-image: url("/image/vision.png");
+    background-size: 100% 100%;
+    left: 10%;
+    margin-left: -35px;
+}
+#tie span:after{
+  font-family: FontAwesome;
+  color: #ccc;
+  content: close-quote;
+  font-size: 1.5em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+}
+#tie span:before{
+  font-family: FontAwesome;
+    color: #ccc;
+    content: open-quote;
+    font-size: 1.5em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+}
+#shoe{
+  position: relative;
+  width: 100%;
+  height: 20%;
+  float: left;
+  text-align: justify;
+  font-family: 'Poppins', Lato, Selawik, sans-serif;
+  font-size: 10px;
+  color: slategray;
+  line-height: 10px;
+  font-stretch: ultra-condensed;
+  font-weight: lighter;
+}
+.thefooter{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  margin: 0px;
+  float: left;
+}
+.ween{
+  position: relative;
+  width: 20%;
+  height: 50px;
+  border-radius: 50px;
+  outline: 0px;
+  border: 0px;
+  font-family: Lato,Selwawik, sans-sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: slategray;
+  margin: 5px;
+}
+#contact_list{
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#contact_list .buck{
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: right;
+  padding: 5px;
+  margin: 5px;
+}
+.nav_{
+  text-decoration: none;
+}
+#iconified{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  fill: slategray;
+}
+#turn{
+  position: absolute;
+  width: 50px;
+  height: 10%;
+  background-color: rgba(0,0,0,0.5);
+  top: 32%;
+  z-index: 150;
+  right: 0%;
+}
+
+@media screen and (max-width: 800px){
+  #about2_about{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    margin: 0px;
+    float: left;
+    padding:3px;
+    top: 0px;
+  }
+  #about2_value{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0px;
+    float: left;
+  }
+  .about_us{
+    position: relative;
+    font-family: 'Poppins', Lato, Selawik, sans-serif;
+    font-size: 20px;
+    color: rgb(17,15,38);
+    text-shadow: 5px 9px 0 rgba(0,0,0,.15);
+    text-align: center;
+    font-weight: lighter;
+    width: 100%;
+    height: 30%;
+    margin: 0px;
+    float: left;
+  }
+  .about_us:after {
+      content: "";
+      position: absolute;
+      width: 70px;
+      height: 8px;
+      bottom: 0;
+      background-image: url("/image/wave-charcoal.png");
+      background-size: 100% 100%;
+  }
+  .about_us:after {
+      left: 50%;
+      margin-left: -35px;
+  }
+  .about_us span{
+    text-align: center;
+    position: relative;
+    top: 0px;
+    font-size: 10px;
+    display: inline;
+    font-weight: lighter;
+  }
+  .cont{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    float: left;
+    padding-top: 0px;
+    font-size: 10px;
+    overflow: auto;
+    font-family:  'Poppins', Lato, Selawik, sans-serif;
+    text-align: justify;
+    height: 70%;
+  }
+  .theheader{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+  }
+  #tie{
+    position: relative;
+    width: 100%;
+    float: left;
+    font-family:  'Poppins', Lato, Selawik, sans-serif;
+    text-align: left;
+    color: slategray;
+    padding: 3px;
+    font-size: 10px;
+    padding-top: 50px;
+    font-weight: lighter;
+    overflow: auto;
+    text-align: justify;
+    line-height: normal;
+    spacing: normal;
+    font-stretch: ultra-condensed;
+  }
+  #tie::before {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: 0px;
+      background-image: url("/kodebottle/image/vision.png");
+      background-size: 100% 100%;
+      left: 10%;
+      margin-left: -35px;
+  }
+  .h4{
+    font-weight: bold;
+    display: inline;
+    color: cornflowerblue;
+  }
+  #tie span:after{
+    font-family: FontAwesome;
+    color: #ccc;
+    content: close-quote;
+    font-size: 1.5em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+  }
+  #tie span:before{
+    font-family: FontAwesome;
+      color: #ccc;
+      content: open-quote;
+      font-size: 1.5em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+  }
+  #shoe{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    float: left;
+    text-align: justify;
+    font-family: 'Poppins', Lato, Selawik, sans-serif;
+    font-size: 10px;
+    color: slategray;
+    line-height: 10px;
+    font-weight: lighter;
+  }
+  .thefooter{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    margin: 0px;
+    float: left;
+  }
+  .ween{
+    position: relative;
+    width: auto;
+    border-radius: 15px;
+    height: 30px;
+    outline: 0px;
+    border: 0px;
+    font-family: Lato,Selwawik, sans-sans-serif;
+    font-size: 10px;
+    color: white;
+    background-color: slategray;
+    margin: 5px;
+  }
+  #contact_list{
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+    padding-right: 10px;
+    top: -20px;
+  }
+  #contact_list .buck{
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+  }
+  .nav_{
+    text-decoration: none;
+  }
+  #iconified{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    fill: slategray;
+  }
+  #jayz{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    float: left;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .ad{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 10px;
+    display: inline;
+    float: left;
+    margin-left: 0px;
+    overflow: scroll;
+  }
+  .ad::-webkit-scrollbar {
+                  width: 1px;
+        }
+  .mix{
+    position: relative;
+    margin: 0px;
+    width: 20%;
+    height: 20%;
+    float: left;
+  }
+  .on{
+    position: relative;
+    width: 80%;
+    float: left;
+    letter-spacing: normal;
+    line-height: 20px;
+  }
+  .mix-icon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(17,15,38);
+    left: 25%;
+  }
+  #next-icon, #next-turn{
+    position: relative;
+    fill: rgb(17,15,38);
+    width: 25px;
+    height: 25px;
+    float: right;
+    top: 25%;
+    right: 0px;
+    cursor: pointer;
+  }
+  #settings{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    fill:orange;
+    left: 20%;
+    top:20%;
+  }
+}
+
+.active{
+  background-color: cornflowerblue;
+  color: white;
+}

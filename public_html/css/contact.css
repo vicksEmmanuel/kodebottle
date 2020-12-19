@@ -1,0 +1,367 @@
+.contact-left{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  margin: 0px;
+  float: left;
+  padding: 5px;
+  top: 30px;
+}
+.contact-right{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  margin: 0px;
+  float: left;
+  padding: 5px;
+  top: 30px;
+}
+.peel{
+  width: 100%;
+  top: 15%;
+  padding-left: 15%;
+}
+.name-box{
+  position: relative;
+  background: rgb(17,15,38);
+  height: 60px;
+  border-radius: 60px;
+  padding: 10px;
+  float: left;
+}
+.name-box-area{
+  position: relative;
+  background: rgb(17,15,38);
+  height: 150px;
+  border-radius: 60px;
+  padding: 10px;
+  float: left;
+}
+.window{
+  position: relative;
+  float: left;
+  margin-bottom: 2%;
+  display: inline;
+  margin-left: 2%;
+}
+#iconifest{
+  fill: white;
+  width: 40px;
+  height: 35px;
+}
+.name-txt{
+  border: 0px;
+  background: none;
+  outline: 0px;
+  cursor: pointer;
+  float: left;
+  padding: 0px;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+.name-txt-area{
+  border: 0px;
+  background: none;
+  outline: 0px;
+  float: left;
+  padding: 0px;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  cursor: pointer;
+}
+.name-box:hover > .name-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+.name-box-area:hover > .name-txt-area{
+  width: 240px;
+  height: 100px;
+  padding: 0 6px;
+}
+#name-btn{
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.send-btn, .cancel-btn{
+  position: relative;
+  background-color: inherit;
+  top: 10px;
+  border: 0px;
+  outline: 0px;
+  cursor: pointer;
+  color: white;
+}
+.contacted{
+  position: relative;
+  width: 100%;
+  float: left;
+  overflow-y:scroll;
+}
+.footer-contact{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding: 5px;
+  padding-top: 20px;
+}
+.es-container{
+  position: relative;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  color: slategray;
+}
+.ed-container{
+  position: relative;
+  float: left;
+}
+.social-icon{
+  position: relative;
+  float: left;
+  top: -10px;
+}
+.vim{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  float: left;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: orange;
+  margin-left: 5px;
+}
+.feedme{
+  position: relative;
+  width: 25px;
+  height: 25px;
+  fill: rgb(17,15,38);
+  left: 25%;
+  top: 25%;
+}
+.ruler{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin-top: 5px;
+  margin-bottom: 10%;
+  background-color: rgb(17,15,38);
+  color: rgb(17,15,38);
+}
+.footer-block{
+  position: relative;
+  width: 30%;
+  float: left;
+  margin-left: 10px;
+}
+.text-6{
+  position: relative;
+}
+.textwidget, .contact-acc{
+  color: rgb(17,15,38);
+  text-decoration: none;
+  text-align: justify;
+}
+.widget{
+  font-size: 15px;
+  width: 100%;
+}
+@media screen and (max-width: 800px){
+  .name-box-area:hover > .name-txt-area{
+    width: 200px;
+    height: 100px;
+    padding: 0 6px;
+  }
+  .name-box:hover > .name-txt{
+    width: 140px;
+    padding: 0 6px;
+  }
+  .contact-left{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    float: left;
+    padding: 5px;
+    top: 30px;
+	overflow-y:scroll;
+  }
+  .contact-right{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    float: left;
+    padding: 5px;
+    top: 30px;
+    display: none;
+  }
+  .name-box{
+    position: relative;
+    background: rgb(17,15,38);
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    float: left;
+  }
+  .name-box-area{
+    position: relative;
+    background: rgb(17,15,38);
+    height: 75px;
+    border-radius: 60px;
+    padding: 10px;
+    float: left;
+  }
+  .window{
+    position: relative;
+    float: left;
+    margin-bottom: 2%;
+    display: inline;
+    margin-left: 2%;
+  }
+  #iconifest{
+    fill: white;
+    width: 20px;
+    height: 20px;
+  }
+  .name-txt{
+    border: 0px;
+    background: none;
+    outline: 0px;
+    cursor: pointer;
+    float: left;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    position: relative;
+    top: -5px;
+  }
+  .name-txt-area{
+    border: 0px;
+    background: none;
+    outline: 0px;
+    float: left;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    cursor: pointer;
+  }
+  .name-box:hover > .name-txt{
+    width: 240px;
+    padding: 0 6px;
+  }
+  .name-box-area:hover > .name-txt-area{
+    width: 240px;
+    height: 50px;
+    padding: 0 6px;
+  }
+  #name-btn{
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .send-btn, .cancel-btn{
+    position: relative;
+    background-color: inherit;
+    top: 0px;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    color: white;
+  }
+  .es-container{
+    position: relative;
+    float: left;
+    text-align: center;
+    color: slategray;
+    font-size: 15px;
+  }
+  .ed-container{
+    position: relative;
+    float: left;
+  }
+  .social-icon{
+    position: relative;
+    float: left;
+    top: 0px;
+  }
+  .vim{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: orange;
+    margin-left: 5px;
+  }
+  .feedme{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    fill: rgb(17,15,38);
+    left: 20%;
+    top: 10%;
+  }
+  .ruler{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 10%;
+    background-color: rgb(17,15,38);
+    color: rgb(17,15,38);
+  }
+  .footer-block{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 2px;
+  }
+  .text-6{
+    position: relative;
+  }
+  .textwidget, .contact-acc{
+    color: rgb(17,15,38);
+    text-decoration: none;
+    text-align:left;
+  }
+  .textwidget{
+    float: left;
+    font-size: 15px;
+    padding: 0px;
+    margin: 2px;
+  }
+  .widget{
+    font-size: 10px;
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+}

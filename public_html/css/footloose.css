@@ -1,0 +1,90 @@
+.tv{
+		  position: relative;
+		  text-decoration: none;
+		  color: #003DFF;
+		  font-family:'Poppins', Lato, Selawik, sans-serif;
+			font-size: 13px;
+			text-align:center;
+			width: 100%;
+	  }
+	  .soup{
+		  position: relative;
+		  font-family:'Poppins', 'Lato', 'Selawik', sans-serif;
+			font-size: 13px;
+			color: #003DFF;
+			text-align:center;
+			line-height: 40px;
+			font-stretch: ultra-condensed;
+			font-weight: lighter;
+			margin: 0px;
+			margin-bottom:10px;
+	  }
+	  .ye{
+		  position: relative;
+		  width: 100%;
+		  list-style: none;
+	  }
+	  .qubit{
+		position: relative;
+			font-family:'Poppins', Lato, Selawik, sans-serif;
+			font-size: 17px;
+			color: #003DFF;
+			text-align:center;
+			line-height: 40px;
+			font-stretch: ultra-condensed;
+			font-weight: bold;
+			margin: 0px;
+			margin-bottom:10px;
+	  }
+	  .orange{
+		  position: relative;
+		  width: 100%;
+		  padding:10px;
+		  list-style: none;
+	  }
+	  .forward{
+		  text-decoration: center;
+		  position: relative;
+		  float: left;
+		  width: 30%;
+		   height: auto;
+	  }
+	  .last{
+		  position:relative;
+		  width: 100%;
+		  float: left;
+		  padding:0px;
+		  margin:0px;
+		  background-color: #CCE4FF;
+	  }
+	  .last-content{
+		  position:relative;
+		  width: 100%;
+	  }
+	  @media screen and (max-width: 800px){
+		.forward{
+			text-decoration: center;
+			position: relative;
+			float: left;
+			width: 100%;
+			height: auto;
+		}
+		.soup{
+			position: relative;
+			font-family:'Poppins', 'Lato', 'Selawik', sans-serif;
+				font-size: 9px;
+				color: #003DFF;
+				text-align:center;
+				line-height: 40px;
+				font-stretch: ultra-condensed;
+				font-weight: lighter;
+				margin: 0px;
+				margin-bottom:10px;
+		}
+		.ye{
+			position: relative;
+			width: 100%;
+			list-style: none;
+			padding:0px;
+		}
+	  }
